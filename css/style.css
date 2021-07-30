@@ -1,0 +1,255 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#FEFEFE, #e6b2d2);
+}
+
+html{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+}
+
+/* CABAÇALHO BANNER */
+
+.caixa-banner{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    color: #ffff;
+}
+
+.banner-texto{
+    height: 40vh;
+    text-align: center;  
+}
+
+.banner-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.banner-subtitulo{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.banner-btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #7caa66;
+    background: #ffff;
+    padding: 15px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.banner-btn:hover {
+	color: #C78C19;
+	text-decoration: underline;
+    transform: scale(1.2);
+}
+
+
+/* SOBRE MIM */
+
+.secao_sobre-mim{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 60px;
+}
+
+/* HABILIDADES*/ 
+
+.minhas-habilidades{
+    width: 50%;
+}
+
+.habilidades-titulo{
+    font-size: 25px;
+    color: #4F1964;
+}
+
+.habilidades-lista{
+    font-size: 18px;
+    color: rgb(97, 93, 93);
+    line-height: 1.8;
+    margin-top: 20px;
+    list-style: none;
+  
+}
+.item{
+    position: relative;
+    margin: 10px 0px;
+    
+}
+.item::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 5px 15px;
+    background-image: url(https://emojis.wiki/emoji-pics/apple/herb-apple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+
+
+/* IMAGEM EU*/
+
+.imagem-eu {
+	width: 30%;
+	opacity: 1;
+	transition: 400ms;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imagem-eu:hover {
+	opacity: 0.3;
+}
+
+/* RESUMO */
+
+.resumo_sobre-mim{
+    display: flex;
+}
+
+.resumo{
+    width: 50%;
+    margin-right: 60px;
+}
+
+.resumo-titulo{
+    font-size: 30px;
+    color: #a99faf;
+    margin-bottom: 20px ;
+}
+
+.resumo-principal{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(121, 72, 121);
+}
+
+.resumo-secundario{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: rgb(73, 48, 73);
+}
+
+.resumo-terceiro{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(73, 48, 73);
+}
+
+ /* BOTAO*/
+
+ .resumo-btn{
+    font-size: 18px;
+    padding: 15px;
+    background: #7caa66;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #E1F7D7;
+}
+ 
+.caixa-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.caixa-btn:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+strong{
+    font-style: italic;
+}
+
+
+/* REDES SOCIAIS */ 
+
+.container-redes-sociais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.caixa-rede-social{ 
+    color: #ffff;
+    background: #7caa66;
+    height: 140px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+} 
+
+.caixa-rede-social:hover {
+	border-color: #C78C19;
+    transform: scale(1.2);
+    color: #dd6300;
+    text-decoration: underline;
+}
+
+.imagem-rede-social{
+    height: 50px;
+}
+
+.titulo-rede-social{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-rede-social{
+    font-size: 14px;
+}
+
+.link-rede-social{
+    text-decoration: none;
+    color: #ffff; 
+}
+
+/*RODAPE*/
+.rodape{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.nome-rodape{
+    color: #484749;
+    font-size: 15px;
+}
