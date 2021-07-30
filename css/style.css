@@ -6,7 +6,7 @@
 }
 
 body{
-    background: linear-gradient(#FEFEFE, #e6b2d2);
+    background: linear-gradient(#FEFEFE, #d49cbf);
 }
 
 html{
@@ -14,7 +14,7 @@ html{
     font-family: "Montserrat",sans-serif;
 }
 
-/* CABAÇALHO BANNER */
+/* CABEÇALHO BANNER */
 
 .caixa-banner{
     display: flex;
@@ -85,10 +85,11 @@ html{
 
 .habilidades-lista{
     font-size: 18px;
-    color: rgb(97, 93, 93);
+    color: rgb(26, 26, 26);
     line-height: 1.8;
     margin-top: 20px;
     list-style: none;
+    font-weight: 500;
   
 }
 .item{
@@ -139,33 +140,33 @@ html{
 
 .resumo-titulo{
     font-size: 30px;
-    color: #a99faf;
+    color: #9c7197;
     margin-bottom: 20px ;
 }
 
 .resumo-principal{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 550;
     text-align: left;
     margin-top: 15px;
     margin-bottom: 20px;
-    color: rgb(121, 72, 121);
+    color: rgb(27, 17, 26);
 }
 
 .resumo-secundario{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 550;
     text-align: justify;
     margin-bottom: 15px;
-    color: rgb(73, 48, 73);
+    color: rgb(27, 17, 26);
 }
 
 .resumo-terceiro{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 550;
     text-align: center;
     margin-bottom: 15px;
-    color: rgb(73, 48, 73);
+    color: rgb(27, 17, 26);
 }
 
  /* BOTAO*/
